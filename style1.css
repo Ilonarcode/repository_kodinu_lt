@@ -1,0 +1,262 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*PRADŽIA*/
+
+    
+body {
+    width: 375px;
+    height: 812px;
+    margin: 0 auto;
+    background-image: url(image/Background_morocco.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    
+    } 
+.overlay {
+    width: 373px;
+    height: 810px;
+    margin: 0 auto;
+    position: absolute;
+    background-color: #191919;
+    border: 2px groove #707070;
+    opacity: 25%;
+    z-index: -10;
+}
+
+.logo, .hamburger {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 38px;
+    height: 32px;
+    margin: 13px 12px;
+}
+
+.hamburger {
+    width: 16px;
+    height: 10px;
+    margin: 20px 12px;
+    position: relative;
+    left: 273px;
+}
+
+h1 {
+    width: 232px;
+    height: 117px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -3px;
+    color: #fff;
+    margin-left: 21px;
+    margin-top: 82px;
+}
+ 
+p {
+    width: 308px;
+    height: 162px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #fff;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-left: 21px; 
+    margin-top: 15px;
+    overflow: hidden;
+    text-align: left;
+}
+.book_info{
+    width: auto;
+    height: auto;
+    text-align: left;
+    margin-left: 21px;
+}
+.button {
+    display: inline-block;
+    width: 113px;
+    height: 41px; 
+    background-color: #E33323;  
+}
+.button a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-family: "Helvetica Neue", Arial, sans-seri;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 15px 26px;
+}
+.book_info > a {
+    display: inline-block;
+    text-decoration: none;
+    width: 59px;
+    height: 14px;
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 33px;
+}
+.watch {
+    width: 100px;
+    height: 30px;
+    margin-top: 113px;
+    margin-left: 21px;
+}
+.play, .watch span{
+    display: inline-block;
+    vertical-align: top;
+}
+.play {
+    width: 30px;
+    height: 30px;
+}
+.watch span {
+    width: 56px;
+    height: 15px;
+    font-size: 11px;
+    color: #fff;
+    font-family: "Neue Haas Grotesk Display Pro", Arial, sans-serif;
+    font-weight: 600;
+    position: relative;
+    left: 7px;
+    top: 9px;   
+}
+
+.dots {
+    width: 68px;
+    height: 8px;
+    margin-left: 21px;
+    margin-top: 66px;
+}
+.dots span{
+    display: inline-block;
+    border-radius: 100%;
+    vertical-align: top;
+}
+.elipse1{
+    width: 8px;
+    height: 8px; 
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+.elipse2, .elipse3, .elipse4 {
+    width: 6px;
+    height: 6px;
+    background-color: #fff;
+    opacity: 20%;
+}
+.elipse2, .elipse3{
+     margin-right: 10px;
+}
+.rectangel{ 
+    width: 319px;
+    height: 89px;
+    margin-top: 30px;
+    background-color: rgba(25, 25, 25, 0.6);
+}
+.trip_info {
+    width: 256px;
+    height: 58px;
+    margin: 0px auto;
+    position: relative;
+    top: 15px;  
+}
+table {
+    width: 100%;
+    color: #fff;
+}
+th{
+    padding-top: 3px;
+    text-align: left;
+    font-family: "Neue Haas Grotesk Display Pro",  Arial, sans-serif;
+    font-size: 9px;
+    letter-spacing: 0.5px;
+}
+td {
+    font-size: 34px;
+    font-family: "Acumin Pro", Arial, sans-serif;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
